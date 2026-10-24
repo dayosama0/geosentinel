@@ -1,0 +1,14 @@
+﻿Risk ID,Risk,Likelihood,Impact,Trigger,Mitigation,Contingency,Owner,Status
+R-01,Satellite imagery access,High,High,Written provider refusals / no suitable licensed pilot imagery,Requests sent to KGS/Airbus; check academic rights; alternate authorized georeferenced scene,Research benchmark + authorized non-Kazakh pilot or simulated coordinate test; qualify claims,Ali Turaliyev,Open
+R-02,SWAD scene leakage,High,High,Overlap of same scene across train/test,"Manual pair review, scene grouping, manifest checks",Use separate independently annotated test where possible,Ali Turaliyev,Open
+R-03,Dataset and imagery licenses,High,High,ML use or redistribution not permitted,"Rights log per source, avoid public raw redistribution",Replace dataset or restrict distribution,Ali Turaliyev,Open
+R-04,Satellite domain shift,High,High,Large sensor/GSD gap between train and pilot,"Sensor/GSD log, external validation",Limit claims to benchmark conditions,Ali Turaliyev,Open
+R-05,Solo-project scope overload,High,High,Mandatory deliverables slip,"Prioritized MVP, strict scope gates",Defer automatic change detection and advanced MLOps,Ali Turaliyev,Open
+R-06,Geospatial transform errors,Medium,High,CRS missing / wrong tile offset,"Five control cases, fail-closed CRS",Disable map coordinates until verified,Ali Turaliyev,Open
+R-07,Evidence matching errors,Medium,High,False merges of nearby unrelated observations,"Human review, source preservation, test pairs",Retain unresolved associations,Ali Turaliyev,Open
+R-08,False recurrence alerts from old data,Medium,High,Upload dates later than cleanup on old images,"Use observation/acquisition date, unknown-date review",Human-only alert state if date uncertain,Ali Turaliyev,Open
+R-09,Training/test contamination,Medium,High,Approved feedback contains protected test scene,"Immutable split manifest, hashing, approval gate",Exclude sample and repeat evaluation,Ali Turaliyev,Open
+R-10,Compute/storage constraints,Medium,Medium,"OOM, storage quota exceeded","Small detector, tiled processing, offline training","Reduce resolution, experiment schedule or size",Ali Turaliyev,Open
+R-11,Repository/YouTrack not ready,High,High,Missing working URL or actual issue screenshots near deadline,Prioritize setup today; test links and tag,Submit truthful documentation and document blocker,Ali Turaliyev,Open
+R-12,Supervisor feedback unavailable,Medium,High,No reply before pre-defense,Request concrete review; preserve communication,"Mark pending, no invented approvals",Ali Turaliyev,Open
+R-13,Privacy/secrets exposure,Medium,High,Token or personal photo in git diff,"gitignore, manual pre-commit review, restricted data",Rotate exposed token and remove public access,Ali Turaliyev,Open

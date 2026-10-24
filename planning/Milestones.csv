@@ -1,0 +1,11 @@
+﻿Milestone,Title,Proposed Target Date,Deliverable,Planning Task IDs
+M0,First pre-defense,2026-10-24,"Documentation, separate YouTrack screenshots PDF, actual repository/tag",PL-01–PL-10
+M1,Data readiness,2026-11-15,Scene-group audit and independent split,PL-11–PL-13
+M2,Detection model comparison,2026-12-15,Faster R-CNN and YOLO experiments,PL-14–PL-15
+M3,Geo-backed API,2027-01-20,"PostGIS, FastAPI, coordinate transforms",PL-16–PL-18
+M4,Interfaces,2027-02-20,Citizen/inspector application,PL-19
+M5,Evidence and missions,2027-03-15,"Evidence Fusion, Verification Missions",PL-20–PL-21
+M6,Monitoring recurrence,2027-03-31,Re-dumping rules,PL-22
+M7,Feedback learning workflow,2027-04-20,Reviewed exports and model approval,PL-23–PL-24
+M8,Integrated evaluation,2027-05-10,"Functional, security and ML evaluation",PL-25–PL-26
+M9,Final report and demonstration,2027-05-20,Provisional completion target; official defense date unconfirmed,PL-27

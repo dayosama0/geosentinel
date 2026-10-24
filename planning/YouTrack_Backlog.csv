@@ -1,0 +1,217 @@
+﻿Summary,Description,Planning ID (string),Owner (string),Priority (enum),State (state),Due Date (date),Workstream (string),Dependencies (string),Requirements (string),Acceptance Criteria (text),Evidence (string)
+Create diploma GitHub repository and configure access,"Planning ID: PL-01
+Outcome: Create diploma GitHub repository and configure access.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Repository exists; README skeleton present; supervisor/committee access arranged or limitation documented.
+Dependencies: None.
+Requirements: N/A.
+Expected evidence: Actual accessible repository URL.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-01,Ali Turaliyev,Critical,Backlog,2026-10-23,Governance,,N/A,Repository exists; README skeleton present; supervisor/committee access arranged or limitation documented.,Actual accessible repository URL
+Complete project README and structure,"Planning ID: PL-02
+Outcome: Complete project README and structure.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Approved title, Ali, supervisor, scope, actual current status, technologies, links and configuration guidance appear in README.
+Dependencies: PL-01.
+Requirements: N/A.
+Expected evidence: README.md and directory tree.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-02,Ali Turaliyev,Critical,Backlog,2026-10-23,Governance,PL-01,N/A,"Approved title, Ali, supervisor, scope, actual current status, technologies, links and configuration guidance appear in README.",README.md and directory tree
+Consolidate and synchronize report sections 1–11,"Planning ID: PL-03
+Outcome: Consolidate and synchronize report sections 1–11.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Exactly 11 sections in required sequence; Balanced MVP v2.0 consistent; no fictional partnership or results; source links and references checked.
+Dependencies: PL-02.
+Requirements: FR-01–FR-30.
+Expected evidence: Main report source/PDF.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-03,Ali Turaliyev,Critical,Backlog,2026-10-24,Documentation,PL-02,FR-01–FR-30,Exactly 11 sections in required sequence; Balanced MVP v2.0 consistent; no fictional partnership or results; source links and references checked.,Main report source/PDF
+Commit editable diagrams and architecture description,"Planning ID: PL-04
+Outcome: Commit editable diagrams and architecture description.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Context, Use Case, Component diagrams have editable sources and readable PNG/SVG, consistent with Section 6.
+Dependencies: PL-01.
+Requirements: FR-01–FR-30.
+Expected evidence: Three source diagrams and exports.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-04,Ali Turaliyev,Critical,Backlog,2026-10-23,Architecture,PL-01,FR-01–FR-30,"Context, Use Case, Component diagrams have editable sources and readable PNG/SVG, consistent with Section 6.",Three source diagrams and exports
+Commit revised interactive UX prototype,"Planning ID: PL-05
+Outcome: Commit revised interactive UX prototype.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: HTML opens; all screens navigate; main actions manually checked; screenshots included.
+Dependencies: PL-01.
+Requirements: FR-06–FR-27.
+Expected evidence: prototype.html, screenshots.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-05,Ali Turaliyev,Critical,Backlog,2026-10-23,UX,PL-01,FR-06–FR-27,HTML opens; all screens navigate; main actions manually checked; screenshots included.,"prototype.html, screenshots"
+Create YouTrack board and real issues,"Planning ID: PL-06
+Outcome: Create YouTrack board and real issues.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Board is accessible; key tasks entered; student assigned; priorities, deadlines, acceptance criteria and dependencies recorded.
+Dependencies: PL-01.
+Requirements: N/A.
+Expected evidence: Real YouTrack URL, board and issue IDs.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-06,Ali Turaliyev,Critical,Backlog,2026-10-23,Governance,PL-01,N/A,"Board is accessible; key tasks entered; student assigned; priorities, deadlines, acceptance criteria and dependencies recorded.","Real YouTrack URL, board and issue IDs"
+Request supervisor review and record actual feedback,"Planning ID: PL-07
+Outcome: Request supervisor review and record actual feedback.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Supervisor asked to review substantive sections; real replies and changes recorded if received; pending status shown otherwise.
+Dependencies: PL-03.
+Requirements: N/A.
+Expected evidence: Sent message or received feedback and revision record.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-07,Ali Turaliyev,Critical,Backlog,2026-10-24,Supervision,PL-03,N/A,Supervisor asked to review substantive sections; real replies and changes recorded if received; pending status shown otherwise.,Sent message or received feedback and revision record
+Export report PDF and YouTrack screenshot PDF,"Planning ID: PL-08
+Outcome: Export report PDF and YouTrack screenshot PDF.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: One PDF includes all 11 sections; another PDF includes real board/issues screenshots; links/rendering verified.
+Dependencies: PL-03,PL-06.
+Requirements: N/A.
+Expected evidence: Two checked PDF files.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-08,Ali Turaliyev,Critical,Backlog,2026-10-24,Submission,"PL-03,PL-06",N/A,One PDF includes all 11 sections; another PDF includes real board/issues screenshots; links/rendering verified.,Two checked PDF files
+Link issues and commit history; tag pre-defense-1,"Planning ID: PL-09
+Outcome: Link issues and commit history; tag pre-defense-1.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Meaningful actual commits linked to tasks; tag pre-defense-1 points to exact checked submission commit.
+Dependencies: PL-04,PL-05,PL-06,PL-08.
+Requirements: N/A.
+Expected evidence: Real commit IDs and pushed tag.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-09,Ali Turaliyev,Critical,Backlog,2026-10-24,Submission,"PL-04,PL-05,PL-06,PL-08",N/A,Meaningful actual commits linked to tasks; tag pre-defense-1 points to exact checked submission commit.,Real commit IDs and pushed tag
+Submit official pre-defense form,"Planning ID: PL-10
+Outcome: Submit official pre-defense form.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Both PDFs uploaded; repo and YouTrack links accessible; submission receipt saved before 18:00.
+Dependencies: PL-08,PL-09.
+Requirements: N/A.
+Expected evidence: Form confirmation receipt.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-10,Ali Turaliyev,Critical,Backlog,2026-10-24,Submission,"PL-08,PL-09",N/A,Both PDFs uploaded; repo and YouTrack links accessible; submission receipt saved before 18:00.,Form confirmation receipt
+Complete SWAD scene-level overlap review,"Planning ID: PL-11
+Outcome: Complete SWAD scene-level overlap review.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Perceptual candidates reviewed; known overlapping source scenes grouped or limitation explicitly reported.
+Dependencies: PL-01.
+Requirements: NFR-09.
+Expected evidence: Scene-grouping report, annotated examples.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-11,Ali Turaliyev,High,Backlog,2026-11-05,Data,PL-01,NFR-09,Perceptual candidates reviewed; known overlapping source scenes grouped or limitation explicitly reported.,"Scene-grouping report, annotated examples"
+Verify satellite-data licenses and source provenance,"Planning ID: PL-12
+Outcome: Verify satellite-data licenses and source provenance.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Explicit ML and redistribution permissions recorded; any unclear source excluded from public artifacts pending clearance.
+Dependencies: PL-01.
+Requirements: NFR-13.
+Expected evidence: License decision log.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-12,Ali Turaliyev,High,Backlog,2026-11-07,Data,PL-01,NFR-13,Explicit ML and redistribution permissions recorded; any unclear source excluded from public artifacts pending clearance.,License decision log
+Prepare leakage-controlled train/val/test manifests,"Planning ID: PL-13
+Outcome: Prepare leakage-controlled train/val/test manifests.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Related scenes/augmentations in one split; frozen test; leakage audit passed or unresolved limitation documented.
+Dependencies: PL-11,PL-12.
+Requirements: NFR-08,NFR-09.
+Expected evidence: Independent split manifests and checks.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-13,Ali Turaliyev,High,Backlog,2026-11-15,Data,"PL-11,PL-12","NFR-08,NFR-09",Related scenes/augmentations in one split; frozen test; leakage audit passed or unresolved limitation documented.,Independent split manifests and checks
+Train Faster R-CNN baseline,"Planning ID: PL-14
+Outcome: Train Faster R-CNN baseline.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Seed, hardware, data version and configuration stored; valid metric evaluation on approved split.
+Dependencies: PL-13.
+Requirements: FR-03,FR-26.
+Expected evidence: Training notebook, checkpoint, metrics.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-14,Ali Turaliyev,High,Backlog,2026-12-05,ML,PL-13,"FR-03,FR-26","Seed, hardware, data version and configuration stored; valid metric evaluation on approved split.","Training notebook, checkpoint, metrics"
+Train and compare a small YOLO candidate,"Planning ID: PL-15
+Outcome: Train and compare a small YOLO candidate.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Same test data and class definition; mAP, precision, recall, latency documented; licensing reviewed.
+Dependencies: PL-13,PL-14.
+Requirements: FR-03,FR-26.
+Expected evidence: Comparison table and failure examples.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-15,Ali Turaliyev,High,Backlog,2026-12-15,ML,"PL-13,PL-14","FR-03,FR-26","Same test data and class definition; mAP, precision, recall, latency documented; licensing reviewed.",Comparison table and failure examples
+Define PostGIS schema and migrations,"Planning ID: PL-16
+Outcome: Define PostGIS schema and migrations.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Monitored locations, observations, missions, alerts, model versions and audit records persist without destructive merges.
+Dependencies: PL-02.
+Requirements: FR-11–FR-14,FR-28–FR-30.
+Expected evidence: Schema and migration tests.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-16,Ali Turaliyev,High,Backlog,2027-01-10,Backend,PL-02,"FR-11–FR-14,FR-28–FR-30","Monitored locations, observations, missions, alerts, model versions and audit records persist without destructive merges.",Schema and migration tests
+"Implement GeoTIFF ingestion, tiling and CRS mapping","Planning ID: PL-17
+Outcome: Implement GeoTIFF ingestion, tiling and CRS mapping.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Valid imagery produces referenced tiles and geographic detections; missing CRS rejected; five control cases validated.
+Dependencies: PL-16,PL-12.
+Requirements: FR-01–FR-05,NFR-04.
+Expected evidence: Raster processing code and coordinate tests.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-17,Ali Turaliyev,High,Backlog,2027-01-20,GIS,"PL-16,PL-12","FR-01–FR-05,NFR-04",Valid imagery produces referenced tiles and geographic detections; missing CRS rejected; five control cases validated.,Raster processing code and coordinate tests
+"Implement FastAPI authentication, roles and core endpoints","Planning ID: PL-18
+Outcome: Implement FastAPI authentication, roles and core endpoints.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Citizen/inspector/admin permissions verified; restricted API calls rejected; audit records generated.
+Dependencies: PL-16.
+Requirements: FR-28–FR-30,NFR-06.
+Expected evidence: OpenAPI and authorization tests.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-18,Ali Turaliyev,High,Backlog,2027-01-20,Backend,PL-16,"FR-28–FR-30,NFR-06",Citizen/inspector/admin permissions verified; restricted API calls rejected; audit records generated.,OpenAPI and authorization tests
+Build citizen reporting PWA and inspector map,"Planning ID: PL-19
+Outcome: Build citizen reporting PWA and inspector map.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Photo and position accepted; manual location selection supported; report status displayed; desktop/map and mobile views function.
+Dependencies: PL-17,PL-18.
+Requirements: FR-06–FR-10.
+Expected evidence: UI and end-to-end reporting tests.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-19,Ali Turaliyev,High,Backlog,2027-02-20,Frontend,"PL-17,PL-18",FR-06–FR-10,Photo and position accepted; manual location selection supported; report status displayed; desktop/map and mobile views function.,UI and end-to-end reporting tests
+Implement Evidence Fusion candidate matching and review,"Planning ID: PL-20
+Outcome: Implement Evidence Fusion candidate matching and review.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Nearby candidate links proposed; unrelated close records not automatically merged; review decisions saved.
+Dependencies: PL-16,PL-19.
+Requirements: FR-11–FR-14.
+Expected evidence: Labeled match tests and provenance records.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-20,Ali Turaliyev,High,Backlog,2027-03-05,Backend,"PL-16,PL-19",FR-11–FR-14,Nearby candidate links proposed; unrelated close records not automatically merged; review decisions saved.,Labeled match tests and provenance records
+Implement Smart Verification Missions,"Planning ID: PL-21
+Outcome: Implement Smart Verification Missions.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Mission workflow Open/In Progress/Completed/Cancelled; outcomes/evidence auditable; RBAC verified.
+Dependencies: PL-18,PL-20.
+Requirements: FR-15–FR-18.
+Expected evidence: Mission API/UI tests.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-21,Ali Turaliyev,High,Backlog,2027-03-15,Backend,"PL-18,PL-20",FR-15–FR-18,Mission workflow Open/In Progress/Completed/Cancelled; outcomes/evidence auditable; RBAC verified.,Mission API/UI tests
+Implement date-aware Re-Dumping Alerts,"Planning ID: PL-22
+Outcome: Implement date-aware Re-Dumping Alerts.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: New post-cleanup evidence creates review alert; old uploaded imagery does not; duplicates suppressed.
+Dependencies: PL-20,PL-21.
+Requirements: FR-19–FR-22.
+Expected evidence: Alert regression tests.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-22,Ali Turaliyev,High,Backlog,2027-03-31,Monitoring,"PL-20,PL-21",FR-19–FR-22,New post-cleanup evidence creates review alert; old uploaded imagery does not; duplicates suppressed.,Alert regression tests
+Implement reviewed satellite sample export,"Planning ID: PL-23
+Outcome: Implement reviewed satellite sample export.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Satellite-only reviewed annotation included; protected test scene excluded; citizen photos remain separate.
+Dependencies: PL-13,PL-21.
+Requirements: FR-23–FR-25.
+Expected evidence: Versioned approved dataset manifest.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-23,Ali Turaliyev,High,Backlog,2027-04-08,ML,"PL-13,PL-21",FR-23–FR-25,Satellite-only reviewed annotation included; protected test scene excluded; citizen photos remain separate.,Versioned approved dataset manifest
+Demonstrate offline retraining and model approval gate,"Planning ID: PL-24
+Outcome: Demonstrate offline retraining and model approval gate.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Candidate training and independent evaluation completed if approved data exist; no automatic model promotion.
+Dependencies: PL-15,PL-23.
+Requirements: FR-26–FR-27.
+Expected evidence: Training comparison and model records.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-24,Ali Turaliyev,High,Backlog,2027-04-20,ML,"PL-15,PL-23",FR-26–FR-27,Candidate training and independent evaluation completed if approved data exist; no automatic model promotion.,Training comparison and model records
+Complete security and performance checks,"Planning ID: PL-25
+Outcome: Complete security and performance checks.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: RBAC/input validation and 360px UX checked; p95 measured at agreed controlled workload when implementation available.
+Dependencies: PL-19,PL-20,PL-21,PL-22.
+Requirements: NFR-01–NFR-13.
+Expected evidence: Security, UX and p95 performance report.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-25,Ali Turaliyev,High,Backlog,2027-05-01,Testing,"PL-19,PL-20,PL-21,PL-22",NFR-01–NFR-13,RBAC/input validation and 360px UX checked; p95 measured at agreed controlled workload when implementation available.,"Security, UX and p95 performance report"
+Run integrated acceptance scenarios and traceability matrix,"Planning ID: PL-26
+Outcome: Run integrated acceptance scenarios and traceability matrix.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Six acceptance scenarios executed or blockers documented; requirements linked to test evidence.
+Dependencies: PL-22,PL-24,PL-25.
+Requirements: AC-01–AC-06.
+Expected evidence: Test logs and traceability table.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-26,Ali Turaliyev,High,Backlog,2027-05-10,Testing,"PL-22,PL-24,PL-25",AC-01–AC-06,Six acceptance scenarios executed or blockers documented; requirements linked to test evidence.,Test logs and traceability table
+Compile final thesis project report and defense demo,"Planning ID: PL-27
+Outcome: Compile final thesis project report and defense demo.
+Owner: Ali Turaliyev (assign his actual YouTrack user).
+Acceptance criteria: Real test results/limitations included; supervisor revisions recorded; demo is reproducible.
+Dependencies: PL-26.
+Requirements: N/A.
+Expected evidence: Revised report and slides.
+Note: Local planning ID only, not a real YouTrack issue key.",PL-27,Ali Turaliyev,High,Backlog,2027-05-20,Finalization,PL-26,N/A,Real test results/limitations included; supervisor revisions recorded; demo is reproducible.,Revised report and slides

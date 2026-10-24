@@ -1,0 +1,1041 @@
+{
+  "dataset": "swad",
+  "root": "<LOCAL_DATA_DIR>\\SWAD_v2_audit_extracted",
+  "source_files_inspected": true,
+  "raw_data_audit_complete": false,
+  "number_of_files": 3995,
+  "total_size_gb": 0.149,
+  "image_files": 1996,
+  "mask_directory_images": 0,
+  "extension_counts": {
+    ".txt": 1998,
+    ".jpg": 1996,
+    ".yaml": 1
+  },
+  "splits_by_images": {
+    "test": 200,
+    "train": 1397,
+    "val": 399
+  },
+  "archive_inventory": [],
+  "mask_checks": {
+    "mask_files": 0,
+    "inspected": 0,
+    "sample": [],
+    "note": "Class ID-to-color mapping requires checking the authors' label legend; non-grayscale masks may encode RGB colors."
+  },
+  "image_checks": {
+    "images_inspected": 1996,
+    "total_images": 1996,
+    "sampled": false,
+    "sample_dimensions": {
+      "640x640": 1996
+    },
+    "sample_formats": {
+      "JPEG": 1996
+    },
+    "corrupt_sample_images": [],
+    "exif_gps_count_sample": 0,
+    "geotiff_crs_count_sample": 0,
+    "geotiff_examples": [],
+    "exact_duplicate_groups_within_split": [],
+    "exact_duplicate_groups_across_splits": [],
+    "possible_visual_duplicate_groups_across_splits_sample": [
+      [
+        "test/images/0037_jpg.rf.f67284ce46dfb0ac90b053830a9a82fb.jpg",
+        "train/images/new_0037_jpg.rf.ce51232406b18cff0351e0f531de6548.jpg"
+      ],
+      [
+        "test/images/0158_jpg.rf.0910830b1f11dcd2a276208151a3ea4a.jpg",
+        "train/images/new_0158_jpg.rf.4fdbba986ddeb0de91c9554af9da5f16.jpg"
+      ],
+      [
+        "test/images/0210_jpg.rf.6cf08509c2a6339a28f397e69b5e8435.jpg",
+        "train/images/new_0210_jpg.rf.ea113b3b142660a9db3264119b0735ad.jpg"
+      ],
+      [
+        "test/images/0280_jpg.rf.9ff746d61e3c672d0d84a9c6325eead3.jpg",
+        "train/images/new_0280_jpg.rf.3d9b41def12b93c178c026dcf540598a.jpg"
+      ],
+      [
+        "test/images/0783_jpg.rf.98d958990bae4b830b0d824a2190f3d6.jpg",
+        "train/images/new_0783_jpg.rf.08e98830d8c3b2a58ee4d7e43b5d56d2.jpg"
+      ],
+      [
+        "test/images/0867_jpg.rf.e64289f1648430371286853484ab638c.jpg",
+        "train/images/new_0867_jpg.rf.8cd9d8046dd876900439f15a37e355c7.jpg"
+      ],
+      [
+        "test/images/0896_jpg.rf.cd7f239124b6f7e7b5562a510d7929ef.jpg",
+        "valid/images/new_0896_jpg.rf.92a02e0bcf57fd198d706a99bc8c9af5.jpg"
+      ],
+      [
+        "test/images/new_0093_jpg.rf.80c4cf3dea9dc604b2d428035b1fd368.jpg",
+        "train/images/0093_jpg.rf.2914c5d971a642d8a9fd1dcb37902f27.jpg"
+      ],
+      [
+        "test/images/new_0114_jpg.rf.3f71e565fcc0553ba260df0d2e8fcbdd.jpg",
+        "valid/images/0114_jpg.rf.242682a9478a9c36d3dd683524026204.jpg"
+      ],
+      [
+        "test/images/new_0322_jpg.rf.edc4a8936a49792727761a81a5e872e1.jpg",
+        "train/images/0322_jpg.rf.4187f5a4a97f16adfa8cb6723143de8c.jpg"
+      ],
+      [
+        "test/images/new_0392_jpg.rf.9c35b6252a5e1e81a7ffecfa82aa2402.jpg",
+        "valid/images/0392_jpg.rf.bdc5ef3ad26079560515573b9c803a81.jpg"
+      ],
+      [
+        "test/images/new_0562_jpg.rf.7b56f7bb53797646778478bc0f708019.jpg",
+        "valid/images/0562_jpg.rf.a190a60ed81644e9c52ad1c5bf67e2d1.jpg"
+      ],
+      [
+        "test/images/new_0645_jpg.rf.9b28258e79b08e0629c9413c87072cd4.jpg",
+        "train/images/0645_jpg.rf.2945f98db61064debfcdedfe2a478a4e.jpg"
+      ],
+      [
+        "test/images/new_0760_jpg.rf.3679d6df841723a35decbeb784ebaab5.jpg",
+        "train/images/0760_jpg.rf.4740ea7f7fab597456bcd3aba90de68c.jpg"
+      ],
+      [
+        "test/images/new_0768_jpg.rf.4b1565053ee1792964788f9d82fc6b7a.jpg",
+        "train/images/0768_jpg.rf.90ecaca339fec45231a7940de6c15a73.jpg"
+      ],
+      [
+        "test/images/new_0985_jpg.rf.0932ed60968e2e832282f3bdfc06f5c7.jpg",
+        "train/images/0985_jpg.rf.f0f13f7fff6688bc3a4cd7bcbe7ce978.jpg"
+      ],
+      [
+        "train/images/0043_jpg.rf.76e0f3954179d9e8b4a7e28797501cb0.jpg",
+        "valid/images/new_0043_jpg.rf.5decd8540110861e8c0723b338943af8.jpg"
+      ],
+      [
+        "train/images/0057_jpg.rf.5e19b337ad7a2b8cf9976b629fb444ab.jpg",
+        "valid/images/new_0057_jpg.rf.3f47f9f4aceec4232370a9b728bcc387.jpg"
+      ],
+      [
+        "train/images/0271_jpg.rf.aab8ca39dbb14a47f721a525aefcb921.jpg",
+        "valid/images/new_0271_jpg.rf.cb3a2276bf794bff66400564091b0d36.jpg"
+      ],
+      [
+        "train/images/0284_jpg.rf.ee9ed8f1a42041ef2ab94df7635b0a60.jpg",
+        "valid/images/new_0284_jpg.rf.df8f335da093333d9ef69c244d424d90.jpg"
+      ]
+    ],
+    "note": "dHash is a weak alert; possible duplicates require manual visual confirmation. GeoTIFF checks need rasterio.",
+    "corrupt_image_count": 0,
+    "corrupt_images": [],
+    "exact_duplicate_groups_within_split_count": 0,
+    "exact_duplicate_groups_across_splits_count": 0,
+    "pixel_identical_duplicate_groups_across_splits": [],
+    "pixel_identical_duplicate_groups_across_splits_count": 0
+  },
+  "yolo": {
+    "present": true,
+    "label_files": 1996,
+    "boxes": 5562,
+    "classes": {
+      "0": 5562
+    },
+    "empty_label_files": 0,
+    "label_stems_without_image_stem": 0,
+    "image_stems_without_label_stem": 0,
+    "invalid_box_examples": [],
+    "note": "Supplemental checks validate all labels against nc=1 and match paths within each split; empty labels are counted separately.",
+    "class_names": {
+      "0": "waste dump"
+    },
+    "declared_nc": 1,
+    "invalid_box_count": 0,
+    "invalid_box_examples_truncated": false,
+    "pairing_method": "exact split and relative path after removing images/labels component",
+    "label_files_without_image_count": 0,
+    "label_files_without_image": [],
+    "image_files_without_label_count": 0,
+    "image_files_without_label": [],
+    "splits": {
+      "test": {
+        "label_files": 200,
+        "valid_boxes": 553,
+        "invalid_rows_or_read_errors": 0,
+        "empty_labels": 0,
+        "images": 200,
+        "images_without_label": 0
+      },
+      "train": {
+        "label_files": 1397,
+        "valid_boxes": 3841,
+        "invalid_rows_or_read_errors": 0,
+        "empty_labels": 0,
+        "images": 1397,
+        "images_without_label": 0
+      },
+      "val": {
+        "label_files": 399,
+        "valid_boxes": 1168,
+        "invalid_rows_or_read_errors": 0,
+        "empty_labels": 0,
+        "images": 399,
+        "images_without_label": 0
+      }
+    }
+  },
+  "coco_like_json": [],
+  "limitations": [
+    "License is NOT automatically validated; read dataset distribution terms and underlying image-source terms.",
+    "Manual QA must inspect randomly selected images with overlaid annotations.",
+    "Automatic detection of spatial leakage across non-identical tiles requires scene-level metadata or visual/manual examination.",
+    "No geolocation found is not proof it never existed in an external metadata registry.",
+    "Full scan covers every extracted image and label; manual annotation overlays have not been reviewed.",
+    "Public Domain is copied from dataset metadata, not independently verified legal permission.",
+    "Perceptual similarity and source-name matches are candidates only; scene-level spatial leakage is not ruled out.",
+    "Declared preprocessing and augmentation are source claims; original pre-export images are unavailable.",
+    "raw_data_audit_complete is false until manual and provenance checks are complete; automated scan completion is reported separately.",
+    "Full scan covers every extracted image and label; manual annotation overlays have not been reviewed.",
+    "Public Domain is copied from dataset metadata, not independently verified legal permission.",
+    "Perceptual similarity and source-name matches are candidates only; scene-level spatial leakage is not ruled out.",
+    "Declared preprocessing and augmentation are source claims; original pre-export images are unavailable.",
+    "raw_data_audit_complete is false until manual and provenance checks are complete; automated scan completion is reported separately."
+  ],
+  "audit_metadata": {
+    "completed_at_utc": "2026-10-21T14:05:12.417164+00:00",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "pillow": "12.1.0",
+    "full_image_scan": true,
+    "original_tool_sha256": "0bfb069bfcae05eedf23663f7ee12a94e49679ce6f80c4037acdd07686bce8cc",
+    "supplemental_script_sha256": "71ce2799e8c29438fcbf983b9dff518f9087f95c8c547dfa6d4e3038c57841ae",
+    "source_archive": "SWAD.v2i.yolov8.zip",
+    "source_archive_sha256": "18b81fcff785e157a0cd10eef654f2f2a887af4683ae7da2fe1b545317f411f7",
+    "source_archive_size_bytes": 149622069,
+    "archive_entries": 3997,
+    "extracted_unique_files": 3995,
+    "archive_crc_status": "all entries read successfully with ZIP CRC verification during extraction",
+    "duplicate_archive_paths": [
+      {
+        "path": "data.yaml",
+        "occurrences": 3,
+        "contents_identical": true
+      }
+    ],
+    "source_data_modified": false
+  },
+  "audit_status": {
+    "automated_file_checks_complete": true,
+    "image_coverage": {
+      "total": 1996,
+      "attempted": 1996,
+      "readable": 1996,
+      "corrupt": 0
+    },
+    "annotation_coverage": {
+      "total_label_files": 1996,
+      "checked_label_files": 1996
+    },
+    "manual_annotation_review_complete": false,
+    "spatial_leakage_review_complete": false,
+    "license_verification_complete": false,
+    "raw_data_audit_complete_definition": "Full dataset acceptance audit, including manual annotation, spatial independence and rights review. See automated_file_checks_complete for technical scan completion."
+  },
+  "leakage_checks": {
+    "exact_bytes_all_images": true,
+    "decoded_rgb_pixels_all_images": true,
+    "roboflow_source_name_groups_across_splits": [],
+    "roboflow_source_name_groups_across_splits_count": 0,
+    "source_name_method": "filename stem before .rf.; matching names are candidates, not proof of identical source scenes",
+    "perceptual_cross_split_candidate_pairs_count": 102,
+    "perceptual_candidate_examples": [
+      {
+        "paths": [
+          "test/images/0028_jpg.rf.7167e4970c278acd768914c95fee9cad.jpg",
+          "train/images/new_0028_jpg.rf.4e8d78e3283e6025a5ee38630aafcd53.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/0037_jpg.rf.f67284ce46dfb0ac90b053830a9a82fb.jpg",
+          "train/images/new_0037_jpg.rf.ce51232406b18cff0351e0f531de6548.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/0144_jpg.rf.a78ba1279c0ad18eeef28e569e7453c4.jpg",
+          "train/images/new_0144_jpg.rf.618c3fd97a9526fde3a205f154cca757.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "test/images/0158_jpg.rf.0910830b1f11dcd2a276208151a3ea4a.jpg",
+          "train/images/new_0158_jpg.rf.4fdbba986ddeb0de91c9554af9da5f16.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/0210_jpg.rf.6cf08509c2a6339a28f397e69b5e8435.jpg",
+          "train/images/new_0210_jpg.rf.ea113b3b142660a9db3264119b0735ad.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/0279_jpg.rf.1512c585c8e73f246f027957c504d756.jpg",
+          "valid/images/new_0279_jpg.rf.08b43eb94f289556fff3e1575c5d67e1.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/0280_jpg.rf.9ff746d61e3c672d0d84a9c6325eead3.jpg",
+          "train/images/new_0280_jpg.rf.3d9b41def12b93c178c026dcf540598a.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/0309_jpg.rf.0a6885acdf0ed921b7f600520af45def.jpg",
+          "valid/images/new_0309_jpg.rf.8903e2954dea46700627134cd5c69bb2.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "test/images/0342_jpg.rf.c2e66e85917523a53e873a1eb9b6ef4a.jpg",
+          "train/images/new_0342_jpg.rf.9410711f7455737ccb5feed482801e8a.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "test/images/0354_jpg.rf.4bcac85fe65fd14314eac7214d04c009.jpg",
+          "train/images/new_0354_jpg.rf.b6f7ba21c99bb8e04d50b46cfaec419b.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "test/images/0406_jpg.rf.cb37724c6d3098c608799a29d2db6199.jpg",
+          "train/images/new_0406_jpg.rf.5611b942e0b367edfb931ed477495cba.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/0463_jpg.rf.fa97fd7090175ae374f305f62fe26089.jpg",
+          "train/images/new_0463_jpg.rf.fd3429cbea3f2b199ac2c71fdc986035.jpg"
+        ],
+        "dhash_hamming_distance": 4
+      },
+      {
+        "paths": [
+          "test/images/0623_jpg.rf.eb6fb16d0569a2642881b8865bdab66c.jpg",
+          "valid/images/new_0623_jpg.rf.e6e16fc441b3cd964c0d5008d1a7eb7d.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "test/images/0725_jpg.rf.b5045ba44fb263e784b5b1239d7b580d.jpg",
+          "train/images/new_0725_jpg.rf.213d4b1922008b1b41add6dbc35ef23a.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/0783_jpg.rf.98d958990bae4b830b0d824a2190f3d6.jpg",
+          "train/images/new_0783_jpg.rf.08e98830d8c3b2a58ee4d7e43b5d56d2.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/0867_jpg.rf.e64289f1648430371286853484ab638c.jpg",
+          "train/images/new_0867_jpg.rf.8cd9d8046dd876900439f15a37e355c7.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/0892_jpg.rf.6427a7337a35a555fe73f763b1b69ccb.jpg",
+          "train/images/new_0892_jpg.rf.f7360cbbf2338974fe26257f8ef9cdcf.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "test/images/0896_jpg.rf.cd7f239124b6f7e7b5562a510d7929ef.jpg",
+          "valid/images/new_0896_jpg.rf.92a02e0bcf57fd198d706a99bc8c9af5.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/0926_jpg.rf.ae9051a9133cf2a4be709d5b8aadd699.jpg",
+          "valid/images/new_0926_jpg.rf.75bef2846851375248b29b617cd96798.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/new_0023_jpg.rf.923260132d6be3501267b5b3d0897db0.jpg",
+          "train/images/0023_jpg.rf.295d0827a0cc2277a13aecafce22685a.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/new_0093_jpg.rf.80c4cf3dea9dc604b2d428035b1fd368.jpg",
+          "train/images/0093_jpg.rf.2914c5d971a642d8a9fd1dcb37902f27.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0114_jpg.rf.3f71e565fcc0553ba260df0d2e8fcbdd.jpg",
+          "valid/images/0114_jpg.rf.242682a9478a9c36d3dd683524026204.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0203_jpg.rf.bf41b914b66c82b8256f1464d9f1260b.jpg",
+          "valid/images/0203_jpg.rf.8ed2932704680662d518e50957c17a18.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "test/images/new_0322_jpg.rf.edc4a8936a49792727761a81a5e872e1.jpg",
+          "train/images/0322_jpg.rf.4187f5a4a97f16adfa8cb6723143de8c.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0324_jpg.rf.01d7b395b77e246e2a466da398efe6b6.jpg",
+          "train/images/0324_jpg.rf.106bde0bc7e1278eec98214b499da098.jpg"
+        ],
+        "dhash_hamming_distance": 4
+      },
+      {
+        "paths": [
+          "test/images/new_0392_jpg.rf.9c35b6252a5e1e81a7ffecfa82aa2402.jpg",
+          "valid/images/0392_jpg.rf.bdc5ef3ad26079560515573b9c803a81.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0476_jpg.rf.8a55d0c42d9b7c0f54ef0c9dc6645ba8.jpg",
+          "train/images/0476_jpg.rf.33f8d071e2af7bd0b5b9baa832f7d35d.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "test/images/new_0562_jpg.rf.7b56f7bb53797646778478bc0f708019.jpg",
+          "valid/images/0562_jpg.rf.a190a60ed81644e9c52ad1c5bf67e2d1.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0621_jpg.rf.dfc693b4241c029836517199abddb4d0.jpg",
+          "train/images/0621_jpg.rf.763196ccabfe360285f21e699b858ccc.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "test/images/new_0645_jpg.rf.9b28258e79b08e0629c9413c87072cd4.jpg",
+          "train/images/0645_jpg.rf.2945f98db61064debfcdedfe2a478a4e.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0674_jpg.rf.e00083652c777abbba961fee27a2b655.jpg",
+          "valid/images/0674_jpg.rf.33037d98b48450a57d8d3576b545c8fe.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/new_0702_jpg.rf.e790b52becfb147483648e2fbd67c9e5.jpg",
+          "train/images/0702_jpg.rf.ffab7f0579f72ff4731c6d4db3b9a045.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/new_0760_jpg.rf.3679d6df841723a35decbeb784ebaab5.jpg",
+          "train/images/0760_jpg.rf.4740ea7f7fab597456bcd3aba90de68c.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0768_jpg.rf.4b1565053ee1792964788f9d82fc6b7a.jpg",
+          "train/images/0768_jpg.rf.90ecaca339fec45231a7940de6c15a73.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "test/images/new_0805_jpg.rf.c46f766d57fa0d2f4d9816c8c9fac95b.jpg",
+          "valid/images/0805_jpg.rf.c2f648da586012d4aa0c838fbfb202ee.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/new_0858_jpg.rf.2883860174707cd6a0a5b5110daed1a1.jpg",
+          "valid/images/0858_jpg.rf.d83436c65da5bf854bab9e0dc16479e7.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "test/images/new_0985_jpg.rf.0932ed60968e2e832282f3bdfc06f5c7.jpg",
+          "train/images/0985_jpg.rf.f0f13f7fff6688bc3a4cd7bcbe7ce978.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0043_jpg.rf.76e0f3954179d9e8b4a7e28797501cb0.jpg",
+          "valid/images/new_0043_jpg.rf.5decd8540110861e8c0723b338943af8.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0057_jpg.rf.5e19b337ad7a2b8cf9976b629fb444ab.jpg",
+          "valid/images/new_0057_jpg.rf.3f47f9f4aceec4232370a9b728bcc387.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0072_jpg.rf.cd813898d474aaf51da4343d6082e865.jpg",
+          "valid/images/new_0072_jpg.rf.2002b501bc8780d7c1be2b68e70f3294.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0101_jpg.rf.868c967e80d462c1d9958f398ec9786d.jpg",
+          "valid/images/new_0101_jpg.rf.fc58c181fef4744f17ed8794d58e1827.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0105_jpg.rf.7c0cfc8acb9fd738065954884b971e63.jpg",
+          "valid/images/new_0105_jpg.rf.37b6f0550751f67c49044f5c64ccf7fd.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0109_jpg.rf.db03ef446c26593ecdc71453bda4c7b4.jpg",
+          "valid/images/new_0109_jpg.rf.394cc18060c5eca5d49d6aeb921dbbeb.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0169_jpg.rf.65f4a72a1e2ebc3a1a6bbc5c9e84ce5f.jpg",
+          "valid/images/new_0169_jpg.rf.85dd2c6618bf52fa96d7133479e0357b.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0237_jpg.rf.ae294dcaad3351b2626e358589a97e61.jpg",
+          "valid/images/new_0237_jpg.rf.f3150126bc7443fcfc5960740cb03dd2.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0271_jpg.rf.aab8ca39dbb14a47f721a525aefcb921.jpg",
+          "valid/images/new_0271_jpg.rf.cb3a2276bf794bff66400564091b0d36.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0273_jpg.rf.f618b143b3cc4f270753e4f00b036af0.jpg",
+          "valid/images/new_0273_jpg.rf.2297f8fa8c66817dde4088fd21b78c19.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0284_jpg.rf.ee9ed8f1a42041ef2ab94df7635b0a60.jpg",
+          "valid/images/new_0284_jpg.rf.df8f335da093333d9ef69c244d424d90.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0285_jpg.rf.914c7a31103b2f48c4c5ccfe96740e5b.jpg",
+          "valid/images/new_0285_jpg.rf.db4f6fbab6cd1978752a760aa72f35ec.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0328_jpg.rf.d19cd0c628cc986edf5b6d544bcb4eac.jpg",
+          "valid/images/new_0328_jpg.rf.53e0ebc10d6f6028204f704165c3e6c1.jpg"
+        ],
+        "dhash_hamming_distance": 4
+      },
+      {
+        "paths": [
+          "train/images/0335_jpg.rf.dfca1df7bcb54b007ef31c9ef8a51b80.jpg",
+          "valid/images/new_0335_jpg.rf.4aca9aeeff19d4e4bef15bfa83f16005.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0484_jpg.rf.fe0297870a43449264f4086e028a0aec.jpg",
+          "valid/images/new_0484_jpg.rf.b4ee9c91db041093cd19b94ffb5a154c.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0500_jpg.rf.6cb9c7a56f902fb9d26b3d8489d444d2.jpg",
+          "valid/images/new_0500_jpg.rf.0d89bfc5ad9fd3ada408cdc8699c7589.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0528_jpg.rf.82622dfe4b127be7758a78b4bc7b07c2.jpg",
+          "valid/images/new_0528_jpg.rf.45ed46edd62eddb81507bfdffaa252e5.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0538_jpg.rf.46296249bf95621c60e352b34583f528.jpg",
+          "valid/images/new_0538_jpg.rf.7aa9b9b97cddd0ae6d347260a1dfb81c.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0591_jpg.rf.e214950fdcc2f5c2f29b3fa9e1153421.jpg",
+          "valid/images/new_0591_jpg.rf.57376747e0a3bcc54a557da2d07df832.jpg"
+        ],
+        "dhash_hamming_distance": 4
+      },
+      {
+        "paths": [
+          "train/images/0676_jpg.rf.56b701ff3c0e14ccea2342d14674905f.jpg",
+          "valid/images/new_0676_jpg.rf.31b94f181321390efea112e51586c54a.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0687_jpg.rf.5c4137370cb35f75b6723703d27ccc9e.jpg",
+          "valid/images/new_0687_jpg.rf.c010655aa8d5fb2da9d31504c0d5bf5d.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0695_jpg.rf.ac7d6f9c6ff2a816728ba9e6566c2818.jpg",
+          "valid/images/new_0695_jpg.rf.57eb0b66750ec02ee9e0dcaa05eb1772.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "train/images/0698_jpg.rf.5ef92bbce43c98ec25238d55bc02af07.jpg",
+          "valid/images/new_0698_jpg.rf.a636b6c71d055b56168a214f79d714f3.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0732_jpg.rf.74744dee8359c7748b9c897f523c689c.jpg",
+          "valid/images/new_0732_jpg.rf.9ccc509b75081acac76e25a8fbd49517.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0859_jpg.rf.766511a79a0b9f7a903ba1a098a5e1bf.jpg",
+          "valid/images/new_0859_jpg.rf.d7f629d927a4583a3666e7a41069b6c5.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "train/images/0864_jpg.rf.cfcc8f591b44c634abddb9337b966059.jpg",
+          "valid/images/new_0864_jpg.rf.a45c1cd7aa41d860cc4d0ce23fcdbe63.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/0879_jpg.rf.9c02f180d91850f8b6c4a2b7a1036354.jpg",
+          "valid/images/new_0879_jpg.rf.7c586803ac15b796544f129a599ac3d6.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/0886_jpg.rf.faff0b28270fb6525db107b7c55a87a9.jpg",
+          "valid/images/new_0886_jpg.rf.f7dd804d1a09740ace6dafa733ab8252.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/0978_jpg.rf.43dc4d6aee2dd86ee818f63277c36ca5.jpg",
+          "valid/images/new_0978_jpg.rf.a54fa9209e38291969bc2995da57162b.jpg"
+        ],
+        "dhash_hamming_distance": 4
+      },
+      {
+        "paths": [
+          "train/images/0979_jpg.rf.30208529d7139cc8b025db89409bec3b.jpg",
+          "valid/images/new_0979_jpg.rf.87fc93f23ebd7d30b3b3ba6219e50b1e.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0010_jpg.rf.36900f561427510853ed77c15cb179b8.jpg",
+          "valid/images/0010_jpg.rf.b7971dfd8b31c2d1fc93d1955d7fce79.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/new_0012_jpg.rf.505f542b50ca7c8ee22018470f0763b8.jpg",
+          "valid/images/0012_jpg.rf.73bc606298883817e3f30393dcbca4c6.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/new_0017_jpg.rf.da2e5d994623d808eaf15d833102a1b1.jpg",
+          "valid/images/0017_jpg.rf.99ab5095b1db46e3696a29f3af7dad9d.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/new_0044_jpg.rf.7c07b45a4a4e17ba3f5ff063417238f9.jpg",
+          "valid/images/0044_jpg.rf.b65a77236c1752bf924903e91d6b4a3c.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/new_0054_jpg.rf.a3d0511618fdf4225c5164d7216b1554.jpg",
+          "valid/images/0054_jpg.rf.be9f768ab1d23800a60bb3c57e6360db.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0060_jpg.rf.92e55de1f2919b4eaf0babd1a8c4efa5.jpg",
+          "valid/images/0060_jpg.rf.5f4aaf3cb792580674dceb485ef65104.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0063_jpg.rf.3b4009ec230c5f2e623f7806c415a0de.jpg",
+          "valid/images/0063_jpg.rf.27e24953bf569f1b6aede4c4f64b9360.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/new_0065_jpg.rf.1024103208b5a3ab8be2a63568041ab9.jpg",
+          "valid/images/0065_jpg.rf.b0aeda947a93970c6d1b82358c4ef178.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0081_jpg.rf.d6aee3cb005040b007b4e58d29da3ba4.jpg",
+          "valid/images/0081_jpg.rf.8fc8504330e9fdfd961dc6ec29e2e7e9.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "train/images/new_0133_jpg.rf.6fe0eb7786dfcb6400f6cda6ea1ffc0b.jpg",
+          "valid/images/0133_jpg.rf.2ee2dfb130a5defd840453b7e5455f6d.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "train/images/new_0177_jpg.rf.ca482b46b4952d8683bc58192c0937a1.jpg",
+          "valid/images/0177_jpg.rf.884b657a175c754055c37ffdd0d7be3b.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "train/images/new_0298_jpg.rf.3d36c1d9ef1f51b72863810c48397f6e.jpg",
+          "valid/images/0298_jpg.rf.b2351831ff565b32f7cf74ec366bce86.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0359_jpg.rf.c107b5d79718ea3833f670d327631512.jpg",
+          "valid/images/0359_jpg.rf.acbc56abbc14cf3db31ed4a27643b03c.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0375_jpg.rf.5f075e371e074f134cb82ee9e1429c2f.jpg",
+          "valid/images/0375_jpg.rf.c84a1b5689ee1a8820126311b7d71833.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0511_jpg.rf.2022b7fbc667982b028cd04de504b8a4.jpg",
+          "valid/images/0511_jpg.rf.8d37bb2ba146e296c47a3616c38ed770.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "train/images/new_0523_jpg.rf.849ae0bbdea21e53df7f87107fa0e529.jpg",
+          "valid/images/0523_jpg.rf.c20ff03fd86d91422bc4c0ec0180626b.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0590_jpg.rf.7955540f6e448a404b855bca29d3a73d.jpg",
+          "valid/images/0590_jpg.rf.8f52c38611ab398745038cf0a9717596.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/new_0611_jpg.rf.0d28987b94e08b8749eac13f332142fd.jpg",
+          "valid/images/0611_jpg.rf.b24d84516b1034f94b9a597ec8e87ed5.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/new_0632_jpg.rf.f31308fd2ac09dd22e50dd2b4560b093.jpg",
+          "valid/images/0632_jpg.rf.8ecf115f0f4013cbc65e4aaffbe8cd6f.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0669_jpg.rf.044f76e9b9448816ac96e6feac82d740.jpg",
+          "valid/images/0669_jpg.rf.244938c51dafe761c992e2b080a36784.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/new_0682_jpg.rf.53b6b90241f553a89367de603f5b4fda.jpg",
+          "valid/images/0682_jpg.rf.3c7e8d89199ea76115c50caec34f46f5.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0683_jpg.rf.a557d6beecbad255c20a9146df8b47fe.jpg",
+          "valid/images/0683_jpg.rf.2da34a02de9401b4200a3e47fe458c92.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/new_0703_jpg.rf.d7bb0ce07c07de7f3268454b21024600.jpg",
+          "valid/images/0703_jpg.rf.b21474ad1c26e43f6194b308cb20a7fe.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/new_0705_jpg.rf.d655fe37513762b1ce137a67d2905460.jpg",
+          "valid/images/0705_jpg.rf.5c92374a7d56e7c12b00aabafe9ec081.jpg"
+        ],
+        "dhash_hamming_distance": 3
+      },
+      {
+        "paths": [
+          "train/images/new_0711_jpg.rf.f67f93d91a46ab906f3854ba8ea951d9.jpg",
+          "valid/images/0711_jpg.rf.781bb374a4f827b3176cdb5093cef94e.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/new_0747_jpg.rf.31bedf142f6a79f997b4f377c7c191eb.jpg",
+          "valid/images/0747_jpg.rf.fec0f15e4ded438e0a8d66a828aaf92b.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0833_jpg.rf.ae3a8bb9fe4763d4fdb74ee6d50503fe.jpg",
+          "valid/images/0833_jpg.rf.2ca2d4685a6dfc460dc49fb28de8658c.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0840_jpg.rf.075a6d0fe5310fb7348326686717b01a.jpg",
+          "valid/images/0840_jpg.rf.7d5591743a00584d4ee68ba86e37e8cf.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0845_jpg.rf.16a029c276eb3f9d0d775fac1f8460fe.jpg",
+          "valid/images/0845_jpg.rf.035ae94f2da8951db1a8b84d28a5f6f6.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0861_jpg.rf.67790a3000eb4bf612afea6f29b1ff6e.jpg",
+          "valid/images/0861_jpg.rf.adebea924de8e4073d8ad9b80a31da12.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0935_jpg.rf.47ee2077677543d2554552cae663977a.jpg",
+          "valid/images/0935_jpg.rf.0e9d20f870eba9f27e32e84e70af5c25.jpg"
+        ],
+        "dhash_hamming_distance": 2
+      },
+      {
+        "paths": [
+          "train/images/new_0977_jpg.rf.1a9c8918259af4d351f4855ec24ed3dc.jpg",
+          "valid/images/0977_jpg.rf.ceba271cf045339df42255dba0716d46.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_0999_jpg.rf.bc24d8f9a5546067bec6a0a137604c77.jpg",
+          "valid/images/0999_jpg.rf.ed1805954b22006f33d0bde199a0ac40.jpg"
+        ],
+        "dhash_hamming_distance": 0
+      },
+      {
+        "paths": [
+          "train/images/new_1002_jpg.rf.375e49e8762202c1bb5042ac77e3dd61.jpg",
+          "valid/images/1002_jpg.rf.bc1a4457d363eb2d5d80739744efb331.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      },
+      {
+        "paths": [
+          "train/images/new_1003_jpg.rf.63cc77b964bdd127c87d295014a0df99.jpg",
+          "valid/images/1003_jpg.rf.bc6933be193232c65f9991df34e1fdb2.jpg"
+        ],
+        "dhash_hamming_distance": 1
+      }
+    ],
+    "perceptual_examples_truncated": false,
+    "perceptual_method": "64-bit dHash, Hamming distance <=4, excluding identical decoded pixels",
+    "perceptual_candidates_confirmed": false,
+    "spatial_independence_verified": false,
+    "visually_reviewed_candidate_pairs_count": 2,
+    "visually_confirmed_cross_split_scene_overlap_pairs_count": 2,
+    "visually_confirmed_examples": [
+      {
+        "paths": [
+          "test/images/0037_jpg.rf.f67284ce46dfb0ac90b053830a9a82fb.jpg",
+          "train/images/new_0037_jpg.rf.ce51232406b18cff0351e0f531de6548.jpg"
+        ],
+        "finding": "Same satellite scene, roads, buildings and visible map UI; minor pixel differences. Visually confirmed train/test scene overlap."
+      },
+      {
+        "paths": [
+          "test/images/0028_jpg.rf.7167e4970c278acd768914c95fee9cad.jpg",
+          "train/images/new_0028_jpg.rf.4e8d78e3283e6025a5ee38630aafcd53.jpg"
+        ],
+        "finding": "Same satellite scene and map UI; second image has local gray patches. Visually confirmed train/test scene overlap."
+      }
+    ],
+    "confirmed_train_test_scene_leakage": true,
+    "perceptual_candidates_confirmed_note": "Two pairs inspected visually and confirmed. Remaining candidates are unreviewed; 102 is a candidate count, not a confirmed-duplicate count."
+  },
+  "dataset_metadata": {
+    "declared_name": "SWAD",
+    "declared_version": 2,
+    "format": "YOLOv8 detection",
+    "declared_class_names": [
+      "waste dump"
+    ],
+    "declared_license": "Public Domain",
+    "license_independently_verified": false,
+    "metadata_sources": [
+      "data.yaml",
+      "README.dataset.txt",
+      "README.roboflow.txt"
+    ],
+    "declared_preprocessing": [
+      "EXIF auto-orientation and orientation stripping",
+      "640x640 stretch"
+    ],
+    "declared_augmentation": [
+      "horizontal flip with probability 50%"
+    ],
+    "metadata_is_source_claim": true,
+    "yaml_path_checks": [
+      {
+        "split": "train",
+        "declared_path": "../train/images",
+        "resolved_relative_to_yaml": "<LOCAL_DATA_DIR>\\train\\images",
+        "exists_relative_to_yaml": false,
+        "actual_extracted_directory": "<LOCAL_DATA_DIR>\\SWAD_v2_audit_extracted\\train\\images"
+      },
+      {
+        "split": "val",
+        "declared_path": "../valid/images",
+        "resolved_relative_to_yaml": "<LOCAL_DATA_DIR>\\valid\\images",
+        "exists_relative_to_yaml": false,
+        "actual_extracted_directory": "<LOCAL_DATA_DIR>\\SWAD_v2_audit_extracted\\valid\\images"
+      },
+      {
+        "split": "test",
+        "declared_path": "../test/images",
+        "resolved_relative_to_yaml": "<LOCAL_DATA_DIR>\\test\\images",
+        "exists_relative_to_yaml": false,
+        "actual_extracted_directory": "<LOCAL_DATA_DIR>\\SWAD_v2_audit_extracted\\test\\images"
+      }
+    ],
+    "yaml_path_note": "Audit scans extracted folders directly. YAML uses ../ paths; if loading with dataset root equal to the YAML folder, use train/images, valid/images and test/images, or set an explicit dataset root. No source configuration was changed."
+  },
+  "assessment": {
+    "status": "NO_GO_FOR_INDEPENDENT_EVALUATION_WITH_CURRENT_SPLITS",
+    "automated_checks_passed": true,
+    "confirmed_scene_overlap_found": true,
+    "reason": "Files and numeric annotations pass automated checks, but visual review confirms two train/test pairs from the same scenes. Rebuild splits by original scene before independent evaluation.",
+    "perceptual_candidates_require_visual_confirmation": true
+  }
+}
